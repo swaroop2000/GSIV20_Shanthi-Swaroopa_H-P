@@ -1,0 +1,146 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: red; */
+  color: #1D1B1B;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+small {
+  font-size: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 40px;
+}
+
+.title {
+  font-size: 5.4rem;
+  text-align: center;
+  font-family: 'Gochi Hand', cursive;
+  margin-top: 100px;
+  color: white;
+}
+
+.form {
+  display: grid;
+}
+
+.input {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.button {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  left:125rem;
+  top:185rem;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.button1 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  top:185rem;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+.button2 {
+  position: absolute;
+  background-color: white;
+  /* color: white; */
+  font-size: 2rem;
+  top:4rem;
+  left:120rem;
+  padding: 1rem 2rem;
+  /* border: 1px solid black; */
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.button1:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media (min-width: 786px) {
+  .title {
+    font-size: 7.4rem;
+  }
+  
+  .form {
+    grid-template-columns: 75% 25%;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+
+  .input {
+    margin-bottom: 0;
+  }
+}
+
+.card-list {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.card {
+  float:left;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  background-color: white;
+  width: 25rem;
+  height: 41rem;
+}
+
+.card--title {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.card--image {
+  /* margin: 0 auto;
+  display: block; */
+  width: 24rem;
+  height:24rem
+}
